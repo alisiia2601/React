@@ -46,7 +46,11 @@ function App() {
               return '3d Article'
             }
           })
-        }}>Switch Article</button>
+        }}>Tap here to see more</button>
+      </div>
+
+        <div className='allArt'>
+      <button onClick = "buttonFunction">All Articles</button>
       </div>
     </>
   )
